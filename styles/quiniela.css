@@ -1,0 +1,49 @@
+#fixedBody{
+    background-image: url(../image/fondo.jpeg);
+    background-attachment: fixed;
+    margin:0; 
+    padding:0; 
+    text-align:center;
+}
+
+.custom-control{
+    margin-bottom: 15px;
+}
+
+#customRadio{
+    margin: 20px;  
+    padding: 20px;
+}
+
+#logo{
+    width: 100px;
+}
+
+#resetear, #checking{
+    margin: 10px;   
+    
+}
+
+#primerRadio{
+    margin-top: 60px;
+}
+
+#resetear,
+#checking{
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+p{
+    text-align: center;  
+    color: white;
+}
+
+.titulo{
+    font-size: 80px;
+    background: rgb(247, 232, 185);
+    background-clip: text;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color:transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

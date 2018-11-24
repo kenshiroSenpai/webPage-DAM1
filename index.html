@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <title>Mundial LOL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/portada.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</head>
+
+<body id="fixedBody">
+    <!-- Jumbotron como imagen de cabecera de la página. -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="titulo">Mundial de League of Legends</h1>
+            <p class="contenido">Toda la información que necesitas saber de los mundiales.</p>
+        </div>
+    </div>
+    <!-- una barra de navegación. -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a id="home-title" data-toggle="tab" class="nav-link active" href="#home">Inicio</a></li>
+        <li class="nav-item"><a id="tab1-title" class="nav-link" data-toggle="tab" href="#tab1">Parche Del Mundial 2018</a></li>
+        <li class="nav-item"><a id="tab2-title" class="nav-link" data-toggle="tab" href="#tab2">Noticias</a></li>
+        <li class="nav-item"><a id="tab3-title" class="nav-link" data-toggle="tab" href="#tab3">Clasificatorias</a></li>
+        <li class="nav-item dropdown">
+            <a id="icono" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#dropdown">Más</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="galeria.html">Galería</a>
+                <a class="dropdown-item" href="historial.html">Historial</a>
+                <a class="dropdown-item" href="quiniela.html">Quiniela</a>
+                <a class="dropdown-item" href="campeones.html">Campeones</a>
+                <a class="dropdown-item" href="crearEquipo.html">Crear Equipo</a>
+                <a class="dropdown-item" href="juego.html">Juego</a>
+            </div>
+        </li>
+    </ul>
+    <!-- Contenido de la barra de navegación. -->
+    <div class="tab-content">
+        <div id="home" class="tab-pane container active">
+            <p>Bienvenidos a la pagina de información y noticias de todos los mundiales celebrados hasta la actualidad</p>
+            <div class="row">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <embed id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/fB8TyLTD7EE">
+                </div>
+                <div class="container mt-3">
+                    <form id="my-form">
+                        <label for="customRange">Indica cuanto te molo la canción.</label>
+                        <input type="range" class="custom-range" id="customRange" name="points1">
+                        <button id="checking" type="button" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="tab1" class="tab-pane container fade">
+            <p>Te dejamos un enlace de la pagina Oficial del League of Legends para consultar el parche del mundial
+                2018</p>
+            <a id="parche" href="https://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-818">Parche
+                8.18</a>
+        </div>
+        <div id="tab2" class="tab-pane container fade">
+            <h1 id="noticia">Campeones y aspectos en oferta 09/10 - 12/10</h1>
+            <div class="row">
+                <p><img src="image/malz.jfif" alt="Malzahar">Malzahar príncipe de las sombras 260 RP</p>
+            </div>
+            <div class="row">
+                <p><img src="image/ram.jfif" alt="Rammus">Rammus cromo 375 RP</p>
+            </div>
+            <div class="row">
+                <p><img src="image/corki.jfif" alt="corki">Corki a lomos de Urf 487 RP</p>
+            </div>
+            <div class="row">
+                <p><img src="image/zed.jfif" alt="zed">PROYECTO: Zed 675 RP</p>
+            </div>
+        </div>
+        <!-- Tabla con los equipos y sus datos. -->
+        <div id="tab3" class="tab-pane container fade">
+            <h1 class="tablas">Puntuaciones del Mundial</h1>
+            <h4 class="tablas">Grupo A</h4>
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th>Equipo</th>
+                        <th>Puntos</th>
+                        <th>Puesto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FNC</td>
+                        <td>72</td>
+                        <td>1º</td>
+                    </tr>
+                    <tr>
+                        <td>G2</td>
+                        <td>68</td>
+                        <td>2º</td>
+                    </tr>
+                    <tr>
+                        <td>C9</td>
+                        <td>55</td>
+                        <td>3º</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="tablas">Grupo B</h4>
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th>Equipo</th>
+                        <th>Puntos</th>
+                        <th>Puesto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rng</td>
+                        <td>90</td>
+                        <td>1º</td>
+                    </tr>
+                    <tr>
+                        <td>GenG</td>
+                        <td>72</td>
+                        <td>2º</td>
+                    </tr>
+                    <tr>
+                        <td>Vit</td>
+                        <td>55</td>
+                        <td>3º</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Ventana para abrir una imagen y verla mas grande. -->
+    <div class="modal fade" role="dialog" id="agrandar">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span>
+                        <span class="sr-only">Cerrar</span></button>
+                </div>
+                <div class="modal-body">
+                    <img id="imagen" src="algo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="message" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ventana emergente para dar un mensaje de si quieres hacer una encuesta. -->
+    <div class="modal fade" id="encuesta" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Le importaría hacer una pequeña encuesta?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button onclick="location.href='encuesta.html'" type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+#fixedBody{
+    background: -webkit-linear-gradient(black,blue,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.jumbotron{
+    background-image: url(../image/cre.jpg);
+    background-size: cover;
+}
+
+.contenido{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    left: -20px;
+}
+
+#titulo{
+    background: rgb(243, 200, 122); 
+    background-clip: text;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    font-size: 80px;
+    -webkit-text-fill-color:transparent;
+    margin-top: 10px;
+}
+
+#mostrar-tabla{
+    margin: 20px;
+}
+
+#logo{
+    width: 50px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    #titulo {
+        font-size: 50px;
+    }
+}
+
+#resetear,
+#descargarTabla,
+#checking{
+    margin-top: 20px;
+    margin-left: 35%;
+}

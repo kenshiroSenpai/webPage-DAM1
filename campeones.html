@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+  <title>Campeones</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/campeones.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="scripts/lightbox.js"></script>
+</head>
+
+<body id="fixedBody">
+  <!-- Jumbotron como imagen de cabecera de la página. -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="titulo">Mundial de League of Legends</h1>
+      <p class="contenido">Toda la información que necesitas saber de los mundiales.</p>
+    </div>
+  </div>
+  <!-- Un logo para volver a la página principal. -->
+  <a href="index.html">
+    <img id="logo" src="image/logo.jpg" class="rounded-circle" alt="logo">
+  </a>
+  <!-- Iconos de imágenes -->
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="icono" src="image/Aatrox.png" onclick="openModal();currentSlide(1)" alt="Aatrox">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Ahri.png" onclick="openModal();currentSlide(2)" alt="Ahri">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Akali.png" onclick="openModal();currentSlide(3)" alt="Akali">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Alistar.png" onclick="openModal();currentSlide(4)" alt="Alistar">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Amumu.png" onclick="openModal();currentSlide(5)" alt="Amumu">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Anivia.png" onclick="openModal();currentSlide(6)" alt="Anivia">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Annie.png" onclick="openModal();currentSlide(7)" alt="Annie">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Ashe.png" onclick="openModal();currentSlide(8)" alt="Ashe">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/AurelionSol.png" onclick="openModal();currentSlide(9)" alt="AurelionSol">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Azir.png" onclick="openModal();currentSlide(10)" alt="Azir">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Bard.png" onclick="openModal();currentSlide(11)" alt="Bard">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Blitzcrank.png" onclick="openModal();currentSlide(12)" alt="Blitzcrank">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Brand.png" onclick="openModal();currentSlide(13)" alt="Brand">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Braum.png" onclick="openModal();currentSlide(14)" alt="Braum">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Caitlyn.png" onclick="openModal();currentSlide(15)" alt="Caitlyn">
+    </div>
+    <div class="col-sm-4">
+      <img class="icono" src="image/Camille.png" onclick="openModal();currentSlide(16)" alt="Camille">
+    </div>
+
+  </div>
+  <!-- Ventana que se abre al pulsar las imágenes anteriores. -->
+  <div id="myModal" class="modal">
+    <span class="my-close cursor" onclick="closeModal()">X</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 16</div>
+        <img class="fondoImagen" src="image/Aatrox_0.jpg" alt="Aatrox_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 16</div>
+        <img class="fondoImagen" src="image/Ahri_0.jpg" alt="Ahri_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 16</div>
+        <img class="fondoImagen" src="image/Akali_0.jpg" alt="Akali_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 16</div>
+        <img class="fondoImagen" src="image/Alistar_0.jpg" alt="Alistar_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 16</div>
+        <img class="fondoImagen" src="image/Amumu_0.jpg" alt="Amumu_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 16</div>
+        <img class="fondoImagen" src="image/Anivia_0.jpg" alt="Anivia_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 16</div>
+        <img class="fondoImagen" src="image/Annie_0.jpg" alt="Annie_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 16</div>
+        <img class="fondoImagen" src="image/Ashe_0.jpg" alt="Ashe_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 16</div>
+        <img class="fondoImagen" src="image/AurelionSol_0.jpg" alt="AurelionSol_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 16</div>
+        <img class="fondoImagen" src="image/Azir_0.jpg" alt="Azir_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 16</div>
+        <img class="fondoImagen" src="image/Bard_0.jpg" alt="Bard_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">12 / 16</div>
+        <img class="fondoImagen" src="image/Blitzcrank_0.jpg" alt="Blitzcrank_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">13 / 16</div>
+        <img class="fondoImagen" src="image/Brand_0.jpg" alt="Brand_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">14 / 16</div>
+        <img class="fondoImagen" src="image/Braum_0.jpg" alt="Braum_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">15 / 16</div>
+        <img class="fondoImagen" src="image/Caitlyn_0.jpg" alt="Caitlyn_0">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">16 / 16</div>
+        <img class="fondoImagen" src="image/Camille_0.jpg" alt="Camille_0">
+      </div>
+
+      <a class="my-previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="my-next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+    </div>
+    <!-- Una miniatura de las imagenes anteriores para navegarr entre ellas y pulsar cualquiera. -->
+    <div class="modal-footer">
+      <div class="column">
+        <img class="demo cursor" src="image/Aatrox.png" onclick="currentSlide(1)" alt="Aatrox">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Ahri.png" onclick="currentSlide(2)" alt="Ahri">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Akali.png" onclick="currentSlide(3)" alt="Akali">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Alistar.png" onclick="currentSlide(4)" alt="Alistar">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Amumu.png" onclick="currentSlide(5)" alt="Amumu">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Anivia.png" onclick="currentSlide(6)" alt="Anivia">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Annie.png" onclick="currentSlide(7)" alt="Annie">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Ashe.png" onclick="currentSlide(8)" alt="Ashe">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/AurelionSol.png" onclick="currentSlide(9)" alt="Aurelion Sol">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Azir.png" onclick="currentSlide(10)" alt="Azir">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Bard.png" onclick="currentSlide(11)" alt="Bard">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Blitzcrank.png" onclick="currentSlide(12)" alt="Blitzcrank">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Brand.png" onclick="currentSlide(13)" alt="Brand">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Braum.png" onclick="currentSlide(14)" alt="Braum">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Caitlyn.png" onclick="currentSlide(15)" alt="Caitlyn">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="image/Camille.png" onclick="currentSlide(16)" alt="Camille">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

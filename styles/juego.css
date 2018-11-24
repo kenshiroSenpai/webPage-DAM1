@@ -1,0 +1,13 @@
+
+body{
+    background-color: black;
+}
+
+canvas{
+    margin-bottom: 400px;
+}
+
+#logo{
+    width: 50px;
+    margin-left: 50px;
+}

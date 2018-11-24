@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="sheet5" tilewidth="16" tileheight="16" tilecount="136" columns="17">
+  <image source="sheet5.png" width="272" height="128"/>
+ </tileset>
+ <tileset firstgid="137" name="sheet5" tilewidth="16" tileheight="16" tilecount="136" columns="17">
+  <image source="sheet5.png" width="272" height="128"/>
+ </tileset>
+ <layer id="1" name="Capa de Patrones 1" width="20" height="10">
+  <data encoding="csv">
+234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,234,
+250,251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,252,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,181,182,182,182,183,0,0,0,0,0,181,182,182,182,183,
+0,0,0,0,0,198,165,165,165,200,0,0,0,227,227,198,165,165,165,200,
+181,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,183,
+198,165,165,165,165,165,165,165,165,165,165,165,165,165,165,165,165,165,165,200
+</data>
+ </layer>
+</map>

@@ -1,0 +1,22 @@
+body {
+    overflow-x:hidden;
+}
+
+#comment {
+    resize: none;
+}
+
+#confirm, 
+#resetear{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.radioOpinion{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#botonVolver{
+    margin-left: 50%;
+}
